@@ -1,0 +1,544 @@
+<resources>
+
+    <string name="app_name">E充站</string>
+    <string name="text_default_placeholder">--</string>
+    <string name="text_default_loading">加载中&#8230;</string>
+
+    <string name="text_guide">不再提醒</string>
+    <string name="text_guide_next">跳过</string>
+
+    <string name="text_default_load_fail_click_again">您的网络开小差啦</string>
+    <string name="text_no_data">暂无数据</string>
+    <string name="dialog_title">温馨提示</string>
+    <string name="dialog_title_hint">提示</string>
+    <string name="text_ok">确定</string>
+    <string name="text_affirm">确认</string>
+    <string name="text_exit">退出</string>
+    <string name="text_exit_app">退出APP</string>
+    <string name="text_disagree">不同意</string>
+    <string name="text_agree">同意</string>
+    <string name="text_retry">重试</string>
+    <string name="text_submit">提交</string>
+    <string name="text_cancel">取消</string>
+    <string name="text_next">下一步</string>
+    <string name="text_finish">完成</string>
+    <string name="text_login">登录</string>
+    <string name="text_find_pwd">忘记密码</string>
+    <string name="text_inputPhone">请输入手机号码</string>
+    <string name="text_inputNewPhone">请输入新的手机号码</string>
+    <string name="text_inputOldPwd">请输入旧密码</string>
+    <string name="text_inputNewPwd">请输入新密码</string>
+    <string name="text_inputPwd">请输入密码</string>
+    <string name="text_inputPwdAgain">请确认新密码</string>
+    <string name="text_verifyCode">获取验证码</string>
+    <string name="text_again_get_verifyCode">重新获取</string>
+
+    <string name="text_inputVerifyCode">请输入验证码</string>
+    <string name="text_checkProtocol">请勾选会员使用协议</string>
+    <string name="pay_success">支付成功!</string>
+    <string name="text_to_pay">去支付</string>
+    <string name="pay_verifying">支付结果确认中</string>
+    <string name="pay_fail">支付失败</string>
+    <string name="pay_cancel">取消支付</string>
+    <string name="text_no_wx">您没有安装微信</string>
+    <string name="text_no_qq">您没有安装QQ</string>
+    <string name="text_shipping_prompt">本次开票金额不足%1$s元\n如选择纸质发票开具，邮费需您自行承担\n </string>
+    <string name="text_invoice_amount_max">单张电子发票开票累计金额不能超过%1$s，您可以选择开具纸质发票，或重新选择开票金额。</string>
+    <string name="text_invoice_amount_max_no_page">单张电子发票开票累计金额不能超过%1$s，您可以重新选择开票金额。</string>
+
+    <string name="text_invoice_ele_no_lines">本月电子发票张数已达限额，您可以选择开具纸质发票，或在次月尝试提交电子发票开票申请。</string>
+    <string name="text_invoice_ele_no_page_lines">本月电子发票张数已达限额，您可以在次月尝试提交电子发票开票申请。</string>
+    <string name="text_unfreeze_hint">该订单的冻结金额已释放至账户的剩余可用额度。在订单完成结算时，系统将按照实际充电情况扣除账户余额。</string>
+
+    <string name="text_more_info">共%1$d项 已填写%2$d项</string>
+    <string name="text_location_city"><Data><![CDATA[当前定位城市： <font color="#ff8a00">%1$s</font>]]></Data></string>
+    <string name="text_location_fail">无法获取您的位置，点击此处开启定位服务</string>
+    <string name="text_location_fail1">无法获取您的位置，点击此处重新定位</string>
+    <string name="text_location_fail2">无法获取您的位置，点击此处开启定位权限</string>
+    <string name="text_location_fail3">定位中，请稍候。。。</string>
+    <string name="error_data">数据获取失败，请重试</string>
+    <string name="error_netWork">当前无网络连接，请检查网络</string>
+    <string name="error_common">出错了，请联系客服</string>
+
+    <string name="text_serial_modify_hint"> 温馨提示：\n1、自动续费协议确认取消后，将不再自动续费。\n2、自动续费协议取消后，当期套餐内的正常电量仍可继续使用，有效期至当期期末。\n3、自动续费协议取消后将不再结转当期套餐内未使用完的电量。</string>
+    <string name="text_serial_modify_guard_hint"> 温馨提示：\n取消后自下一期月费续费时，将不再为您自动代扣月费保障服务费用。</string>
+
+    <!--除了立即支付以外其他都用"订单金额"-->
+
+
+    <string name="text_input_invitation_code">请输入邀请码(选填)</string>
+    <string name="text_invitation_code">邀请码</string>
+    <string name="text_no_use_invitation_code">不使用邀请码</string>
+    <string name="text_coupon_can_use_num">%d张优惠券可用</string>
+    <string name="text_coupon_code_power1">结算度数减%s度</string>
+    <string name="text_coupon_code_power2">结算度数满%1$s度减%2$s度</string>
+    <string name="text_coupon_code_power3">服务费减%1$s点</string>
+<!--    <string name="text_coupon_code_power5">充电服务费打 %.2f折</string>-->
+<!--    <string name="text_coupon_code_power6">折抵电量 %.2f度</string>-->
+    <string name="text_coupon_code_power7">服务费 %1$s折</string>
+    <string name="text_coupon_code_power8">服务费满%1$s点减%2$s点</string>
+    <string name="text_coupon_code_power9">-%s点</string>
+    <string name="text_coupon_code_power10">-%s度</string>
+    <string name="text_coupon_code_power4"><![CDATA[抵扣电量 <font color="#FF8927">%1$s</font> 度]]></string>
+    <string name="text_coupon_service_code_power1"><![CDATA[充电服务费减 <font color="#FF8927">%1$s</font> 点]]></string>
+    <string name="text_coupon_service_code_power2"><![CDATA[充电服务费打 <font color="#FF8927">%1$s</font> 折]]></string>
+    <string name="text_invitation_code_error">请输入有效的邀请码</string>
+    <string name="sku_gift_echong">含赠送%1$s易充点</string>
+    <string name="sku_gift_service">赠送%1$s服务费抵用金</string>
+
+    <string name="text_choose_coupon">选择优惠劵</string>
+    <string name="text_coupon_use_fail">您在启动充电时选择的“%s”无法使用</string>
+    <!--<string name="text_coupon_save_fee">已&#8201;为&#8201;您&#8201;节&#8201;省&#8201;了&#8201;<Data><![CDATA[<font color="#2ea4f9">%1$.2f</font>]]></Data>&#8201;度</string>-->
+    <string name="text_coupon_save_fee">已为您节省了%1$s度电量</string>
+    <!--    <string name="text_ecard_save_fee">已为您节省了%1$s易充点</string>-->
+    <string name="text_monthly_save_fee"><Data><![CDATA[已为您节省了<font color="#FF8927">%1$s</font>度电量]]></Data></string>
+    <string name="text_user_save_fee"><Data><![CDATA[已为您节省了<font color="#FF8927">%1$s</font>点]]></Data></string>
+
+    <string name="text_coupon_use_fail1">请调整充电度数以符合优惠券满减条件，或重新选择优惠券</string>
+    <string name="text_coupon_use_fail2">账户余额未达到优惠券满减条件，请重新选择优惠券</string>
+
+    <!--<string name="text_prompt1">1、若您拥有固定产权车位，仅需支付6800元即可参与私人桩建设服务(包含一年保修服务，此活动仅包含电桩及基础施工费用)\n\n2、参与6800元私人桩建设服务的用户，可选择购买399/年的无忧售后延保服务。\n\n3、如您想了解更多信息，可咨询客服%1$s</string>-->
+    <string name="text_prompt_freeze">正在充电时，系统将暂时冻结相关账户当次充电额度，充电结束后将使用该部分额度进行结算。实际扣费以后台结算为准。</string>
+    <string name="text_hint_pwd_accordance">两次输入的密码不一致</string>
+    <string name="text_hint_pwd_length">密码必须是8-20位，且包括大写字母、小写字母和数字。</string>
+    <string name="text_hint_pwd_length_2">密码格式错误，请重新输入</string>
+    <string name="text_hint_phone">请输入正确的手机号码</string>
+    <string name="text_phone_not_same">新手机号不能与原手机号相同</string>
+    <string name="text_pile_state">开始获取充电桩状态</string>
+
+    <string name="info_user_name">用&#8194;户&#8194;名</string>
+    <string name="info_user_name_hind">请输入姓名，方便我们后续联系您</string>
+    <string name="info_sex_hind">性别选项只允许修改一次</string>
+    <string name="info_sex">性&#8195;&#8195;别</string>
+
+    <!--<string name="unUsePoint1"><Data><![CDATA[个人账户剩余易充点数：<font color="#ff853c">%1$.2f</font>点]]></Data></string>-->
+    <!--<string name="unUsePower"><Data><![CDATA[月费剩余电量：<font color="#ff853c">%1$.2f</font>度]]></Data></string>-->
+    <!--<string name="text_money_red"><Data><![CDATA[<font color="#ff0000">%1$s</font> 元]]></Data></string>-->
+    <!--<string name="text_money_red1"><Data><![CDATA[共需支付：<font color="#ff0000">%1$s</font> 元]]></Data></string>-->
+    <!--<string name="text_current_package1"><Data><![CDATA[<font color="#95BE3A">%1$d</font>元档位月费套餐]]></Data></string>-->
+    <!--<string name="text_current_package2">%1$d元档位月费套餐</string>-->
+    <!--<string name="text_residueMonth"><Data><![CDATA[剩余<font color="#95BE3A">%1$d</font>个月]]></Data></string>-->
+    <!--<string name="text_need_pay"><Data><![CDATA[还需支付差价<font color="#95BE3A">%1$d</font>元]]></Data></string>-->
+
+
+    <!--&#32; == 普通的英文半角空格-->
+    <!--&#160; == &nbsp; == &#xA0; == no-break space （普通的英文半角空格但不换行）-->
+    <!--&#12288; == 中文全角空格 （一个中文宽度）-->
+    <!--&#8194; == &ensp; == en空格 （半个中文宽度）-->
+    <!--&#8195; == &emsp; == em空格 （一个中文宽度）-->
+    <string name="vehicle_defaultCar">设为常用车辆</string>
+    <string name="vehicle_delCar">删除</string>
+    <string name="vehicle_addCar">添加车辆</string>
+    <string name="vehicle_auto_data">车展数据</string>
+    <string name="vehicle_input_number">请输入车牌号码</string>
+
+    <!--<string name="login_card_bind_not">未绑定E充卡号</string>-->
+
+    <string name="login_account">账号密码登录</string>
+    <string name="login_phone">手机密码登录</string>
+    <string name="login_mcode">验证码登录</string>
+    <string name="login_input_phone">请输入手机号码</string>
+    <string name="login_input_account">请输入账号</string>
+    <string name="login_input_pwd">请输入密码</string>
+    <string name="login_forget_pwd"><u>忘记密码?</u></string>
+    <string name="login_agreement">《E充站用户使用协议》</string>
+    <string name="login_privacy_agreement">《隐私政策》</string>
+
+    <string name="login_reg_input_phone">请输入您的手机号码</string>
+    <string name="login_reg_input_verify_code">请输入收到的验证码</string>
+    <string name="login_reg_call_service"><Data><![CDATA[如有任何疑问可联系E充站客服<font color="#2ea4f9">%1$s</font>]]></Data></string>
+
+    <string name="login_find_not_verify_code">收不到验证码?试试<Data><![CDATA[<font color="#2ea4f9">语音验证码</font>]]></Data></string>
+    <string name="login_find_input_phone">请输入绑定的手机号码</string>
+    <string name="login_find_input_pwd">请输入您的新密码</string>
+    <string name="login_find_input_pwd_confirm">请重复您的新密码</string>
+    <string name="login_find_complete">完成</string>
+
+    <string name="login_bind">绑定</string>
+    <string name="login_bind_mobile">绑定手机</string>
+    <string name="login_bind_explain">为了保证您的账号安全，请绑定手机号码。您可使用绑定的手机号码登录或找回密码。</string>
+
+    <string name="login_card_input_number">请输入您的易充卡号</string>
+    <string name="login_card_input_code">请输入启动码</string>
+    <string name="login_card_bind_not">未绑定易充卡号</string>
+
+    <string name="complete_info_address">请选择您所在的区域</string>
+    <string name="complete_info_address_detail">请输入详细地址</string>
+    <string name="text_man">先生</string>
+    <string name="text_lady">女士</string>
+    <string name="text_address">所在区域</string>
+    <string name="text_address_info">详细地址</string>
+
+    <string name="text_choose">请选择</string>
+
+    <string name="text_price2">%s元</string>
+    <string name="text_price4">¥%s</string>
+    <string name="text_price5"><Data><![CDATA[<small><small><small>¥</small></small></small>%s]]></Data></string>
+    <string name="text_price8"><Data><![CDATA[<small><small><small><font color="#999999">首月</font>¥</small></small></small>%s]]></Data></string>
+    <string name="text_price7"><Data><![CDATA[<small>¥</small>%s]]></Data></string>
+    <string name="text_price6"><Data><![CDATA[<small><small><small>首月¥</small></small></small>%s]]></Data></string>
+
+
+    <string name="monthly_power">每月%s度电</string>
+    <string name="monthly_given_point">每月赠%s点</string>
+    <string name="monthly_given_point1">一次性赠%s点</string>
+    <string name="monthly_given_power">每月赠%s度</string>
+    <string name="monthly_given_power1">一次性赠%s度</string>
+    <string name="monthly_given_monthly">%s期</string>
+    <string name="monthly_given_Guard">%s期</string>
+    <string name="monthly_given_coupon">赠%d张券</string>
+    <string name="monthly_upgrade_prompt" translatable="false">1、若合约期内，套餐被使用且剩余月份大于等于1的情况下允许升级。\n2、仅需支付差价则可升级到更高套餐。\n3、升级套餐于次月生效， 套餐包赠品沿用升级前级别， 不退不换， 不再额外升级。</string>
+    <string name="monthly_stop_prompt" translatable="false">温馨提示：\n 1、若因用户个人原因暂时终止服务，我司支持冻结合约期业务，您可能需要支付冻结管理费（可通过易充点数代扣）。\n2、若因公司等原因造成的中止服务，您的包月套餐服务合约自动顺延，无需支付管理费。</string>
+    <string name="monthly_guard_dialog">您可购买该套餐中剩余%1$s期的月费保障服务（共%2$s元）。</string>
+    <string name="monthly_continuous_guard_dialog">开通月费保障后，将在后续连续包月自动续费时为您同时扣除月费保障服务费%1$s</string>
+    <!--    <string name="group_num"><Data><![CDATA[<font color="#FF8927"><strong><big><big>%1$s</big></big></strong></font>台电桩]]></Data></string>-->
+    <!--    <string name="group_price"><Data><![CDATA[<font color="#FF8927"><big><big><strong>%1$s</strong></big></big></font>]]></Data></string>-->
+
+    <string name="text_point2">%s点</string>
+    <string name="text_point3">%.2f</string>
+    <string name="text_power2">%s度</string>
+    <string name="text_echong_unit">点</string>
+    <string name="text_echong_price_unit">%s/度</string>
+    <string name="text_power3"><Data><![CDATA[<font color="#2ea4f9">%1$.2f</font>度]]></Data></string>
+    <string name="text_power5">+%s度</string>
+    <string name="text_power4">%.2f度</string>
+    <string name="text_power6"><Data><![CDATA[<font color="#2ea4f9">%1$.2f</font>/%2$.2f]]></Data></string>
+    <string name="text_power7">--/%.2f</string>
+    <string name="text_surplus_point">剩余点数：%s点</string>
+    <string name="text_surplus_power">剩余度数：%s度</string>
+    <string name="text_point_buy">购买点数：%s</string>
+    <string name="text_point_given">赠送点数：%s</string>
+    <string name="text_point_service">服务费抵用金点数：%s</string>
+
+    <string name="text_month_normal">套餐额度：%s</string>
+    <string name="text_month_carryover">上月结转额度：%s</string>
+    <string name="text_month_gift">赠送额度：%s</string>
+    <string name="text_month_endurance">续航包额度：%s</string>
+
+    <string name="text_monthly_periods">共%1$d期</string>
+    <string name="text_monthly_periods1">共%1$d期(当前第%2$d期)</string>
+    <string name="text_monthly_periods2">第%1$d期</string>
+    <string name="text_monthly_periods3">当前第%1$d期</string>
+    <string name="text_monthly_next_periods_price">(下期资费%1$.2f元)</string>
+
+
+    <string name="text_account">账号</string>
+    <string name="text_update_phone">修改手机号</string>
+    <string name="text_contact">联系方式</string>
+    <string name="text_update_pwd">修改密码</string>
+    <string name="text_about_us">关于我们</string>
+    <string name="text_cache">清理缓存</string>
+    <string name="text_share">APP分享</string>
+    <string name="text_notice">消息提醒设置</string>
+    <string name="text_share_hind">把E充站分享给好友，一起体验充电的便捷</string>
+    <string name="text_share_parameter_error">分享参数异常,请联系客服</string>
+    <string name="text_logout">退出登录</string>
+    <string name="text_enterprise">企业认证</string>
+    <string name="text_card_number">易充卡号</string>
+
+    <!--%N代表第N个参数，如%3代表的是第三个参数；-->
+    <!--$是结束符；-->
+    <!--d/s/.2f代表的是整数/字符串/保留2位小数点的浮点数-->
+    <string name="text_address_string">%1$s&#12288;%2$s&#12288;%3$s</string>
+    <string name="text_company_string"><Data><![CDATA[<font color="#2ea4f9">%1$s</font>]]></Data></string>
+    <string name="info_not_address">暂无信息</string>
+
+    <string name="text_hint_uint">价格单位:点/度</string>
+    <string name="text_hint_uint_2">价格单位:%1$s/度</string>
+    <string name="text_hint_promo">结算费用精确到小数点后两位，实际结算费用以页面显示为准。</string>
+
+    <string name="invoice_explain">开票金额说明</string>
+    <string name="invoice_consumption_info"><Data><![CDATA[<font color="#ff8a00">%1$d</font>个消费记录 共<font color="#ff8a00">%2$s</font>元(满<font color="#ff8a00">%3$s</font>元包邮)]]></Data></string>
+    <string name="invoice_consumption_info2"><Data><![CDATA[<font color="#ff8a00">%1$d</font>个消费记录 共<font color="#ff8a00">%2$s</font>元]]></Data></string>
+    <string name="invoice_all">全选</string>
+
+    <string name="invoice_select_type">请选择发票类型</string>
+    <string name="invoice_paper_characteristics">纸质发票</string>
+    <string name="invoice_ele_characteristics">电子发票</string>
+    <string name="invoice_detail">发票详情</string>
+    <string name="invoice_rise_type">抬头类型&#8195;</string>
+    <string name="invoice_rise_nterprise">企业抬头</string>
+    <string name="invoice_rise_individual">个人/非企业单位</string>
+    <string name="invoice_addressee">收件信息</string>
+    <string name="invoice_charge_service">充电服务费</string>
+    <string name="invoice_remark">填备注、开户银行等</string>
+    <!--&#32; == 普通的英文半角空格-->
+    <!--&#160; == &nbsp; == &#xA0; == no-break space （普通的英文半角空格但不换行）-->
+    <!--&#12288; == 中文全角空格 （一个中文宽度）-->
+    <!--&#8194; == &ensp; == en空格 （半个中文宽度）-->
+    <!--&#8195; == &emsp; == em空格 （一个中文宽度）-->
+    <string name="invoice_rise_invoice">发票抬头*&#8194;</string>
+    <string name="invoice_taxpayer">税&#8195;&#8195;号*&#8194;</string>
+    <string name="invoice_recipients">收件人&#8195;*&#8194;</string>
+    <string name="invoice_contact_number">联系电话*&#8194;</string>
+    <string name="invoice_current_area">所在区域*&#8194;</string>
+    <string name="invoice_address_info">详细地址*&#8194;</string>
+    <string name="invoice_content">发票内容&#8195;</string>
+    <string name="invoice_money">开票金额&#8195;</string>
+    <string name="invoice_more_info">更多信息&#8195;</string>
+    <string name="invoice_taxpayer2">税&#8195;&#8195;号&#8195;</string>
+    <string name="invoice_title_company_hind">请输入企业名称</string>
+    <string name="invoice_title_personal_hind">请输入个人名称</string>
+    <string name="invoice_taxpayer_hind">请输入纳税人识别号</string>
+    <string name="invoice_recipients_hind">请输入收件人</string>
+    <string name="invoice_contact_number_hind">请输入联系电话</string>
+    <string name="invoice_email">接收邮箱*&#8194;</string>
+    <string name="invoice_email_hind">用于接收电子发票，请谨慎填写</string>
+
+    <string name="invoice_money_string"><Data><![CDATA[<font color="#ff8a00">%1$s</font>元]]></Data></string>
+    <string name="invoice_id">开票ID:&#8194;%1$s</string>
+    <string name="invoice_status"><Data><![CDATA[发票状态:&#8194;<font color="#2ea4f9">%1$s</font>]]></Data></string>
+    <string name="invoice_look_up">发票抬头</string>
+    <string name="invoice_recipients2">收件人&#8195;</string>
+    <string name="invoice_send_address">寄送地址</string>
+    <string name="invoice_money2">开票金额</string>
+    <string name="invoice_commit_date">提交开票时间</string>
+    <string name="invoice_type">发票类型</string>
+
+    <string name="invoice_address">企业地址</string>
+    <string name="invoice_address_hind">请填写企业地址</string>
+    <string name="invoice_phone">企业电话</string>
+    <string name="invoice_phone_hind">请填写企业电话</string>
+    <string name="invoice_bank_name">开户行&#8195;</string>
+    <string name="invoice_bank_name_hind">请填写开户行</string>
+    <string name="invoice_bank_num">银行账号</string>
+    <string name="invoice_bank_num_hind">请填写开户银行账号</string>
+    <string name="invoice_remark2">备注说明</string>
+    <string name="invoice_remark2_hind">请填写备注说明</string>
+    <string name="invoice_num"><Data><![CDATA[开票历史共计<font color="#ff8a00">%1$s</font>张发票]]></Data></string>
+    <string name="invoice_ele_remark">确认提交后发票信息无法修改\n电子发票将在系统开具后发送至邮箱，请注意查收</string>
+    <string name="invoice_success_remark">电子发票信息已提交，开票成功后系统将自动发送\n发票信息至您的邮箱中，请注意查收</string>
+    <string name="invoice_send_email">发送到邮箱</string>
+    <string name="invoice_email_hind_content">提交成功后系统自动将电子发票发送至您的邮箱\n请勿重复提交</string>
+
+    <string name="text_address_string2">%1$s&#12288;|&#12288;%2$s&#12288;|&#12288;%3$s</string>
+    <string name="text_toast_commit_success">提交成功，客服会尽快与您联系</string>
+
+    <string name="text_issue">请详细描述您的所在城市、点位名称及遇到的问题，我们将尽快安排处理，至少5个字。</string>
+    <string name="text_need_pay_order_tip">若选择不想立即支付，您可以在记录-支付记录页面找到这条订单继续支付。</string>
+    <string name="text_need_pay_order_tip1">您有1个待支付订单</string>
+
+    <string name="feedback_upload_img">上传图片</string>
+    <string name="feedback_pile_error">设备故障</string>
+    <string name="feedback_station_error">场地情况</string>
+    <string name="feedback_content_error">不能有特殊符号</string>
+
+    <string name="pile_cid1">电桩编号(CID):%s</string>
+    <string name="pile_floor1">楼层：%1$s&#12288;车位：%2$s</string>
+    <string name="pile_max_elec">最大输出电流：%1$.2fA</string>
+    <string name="pile_max_power">最大输出功率：%1$.2fkW</string>
+
+    <string name="text_feedback_title"><Data><![CDATA[您遇到了什么问题? <small>(必填)</small>]]></Data></string>
+
+    <string name="feedback_record_selected"><Data><![CDATA[选择记录<small>(必填)</small>]]></Data></string>
+    <string name="feedback_record_describe"><Data><![CDATA[问题描述<small>(必填)</small>]]></Data></string>
+    <string name="feedback_record_selected_hind">请选择一条充电记录</string>
+
+    <string name="monthly_can_upgrade_amount">可升级%d个月</string>
+    <string name="monthly_upgrade_price"><Data><![CDATA[需支付<font color="#FF8927">%1$d</font>个月差价:<font color="#FF8927">%2$s</font>元]]></Data></string>
+    <string name="company_name_input_hind">请输入企业认证码</string>
+    <string name="text_pay_history">支付记录</string>
+    <string name="text_charge_record">充电记录</string>
+    <string name="text_other_record">其他记录</string>
+    <string name="text_invite_record">邀请记录</string>
+    <string name="text_shop_record">商城订单记录</string>
+    <string name="text_charge_finish">充电完成，账户信息已更新</string>
+    <string name="text_charge_finish_redPacket">恭喜您获得充电红包奖励%s点</string>
+    <string name="text_free_num">冻结待结算：%s</string>
+    <string name="text_service_phone" translatable="false">若需停止月费套餐服务，请拨打24小时客服热线:\n%s</string>
+    <string name="hint_recharge">请输入充值码</string>
+    <string name="invitation_look_text">我的邀请码:%1$s</string>
+    <string name="text_time_scope">%1$s 至 %2$s</string>
+    <string name="text_sign_periods">连续包月期数： 第%d期</string>
+
+
+    <string name="record_details_coupon_string">结算度数减%1$s度</string>
+    <string name="text_details_ajust_fee">系统调整费用</string>
+    <string name="record_details_discountsSun">优惠合计</string>
+    <string name="txt_promo_detail">优惠详情</string>
+    <string name="record_details_start_way">启动方式</string>
+    <string name="record_details_start_time">开始时间</string>
+    <string name="record_details_finish_time">结束时间</string>
+    <string name="record_details_preset_power">预设电量</string>
+
+    <string name="record_details_total_settle_fee">应付充电费用</string>
+    <string name="record_details_actual_settle_fee">实际结算费用</string>
+    <string name="record_details_charge_account">充电账户</string>
+    <string name="text_charge_power">充电电量</string>
+    <string name="record_details_settle_type">结算类型</string>
+    <string name="record_details_freeze_fee">冻结金额</string>
+    <string name="record_details_freeze_power">冻结度数</string>
+    <string name="record_details_total_power">实充度数</string>
+    <string name="record_details_point_back">返还金额</string>
+    <string name="record_details_power_back">返还度数</string>
+    <string name="record_details_settle_time">结算时间</string>
+    <string name="record_details_release_fee">释放冻结金额</string>
+    <string name="record_details_release_time">释放冻结时间</string>
+    <string name="base_price">基础资费</string>
+    <string name="text_price_detail">基础资费详情</string>
+    <string name="text_item_coupon">优惠券</string>
+    <string name="text_item_activity">活动</string>
+    <string name="text_item_ecard">易充点权益卡</string>
+
+    <string name="guide_hind_record">您的现金支付记录查询</string>
+    <string name="guide_hind_record2">所有充电记录在这里查看噢</string>
+    <string name="guide_hind_main1">要充电？\n点这里扫描电桩二维码</string>
+    <string name="guide_hind_main2">当扫码按钮变成闪电\n长按可以快速结束充电</string>
+    <string name="guide_hind_new_main">点击全部，查看全部功能点\n并支持自定义常用功能。</string>
+    <string name="guide_hind_new_main2">你可以查看系统\n智能推荐点位</string>
+    <string name="guide_hind_charge">请选择\n您本次启动充电的账户</string>
+    <string name="guide_hind_charge3">可以使用优惠券抵扣充电度数啦</string>
+    <string name="guide_hind_charge4">设置本次充电度数</string>
+    <string name="guide_hind_captrue">扫描电桩屏幕上的二维码\n进入充电流程</string>
+    <string name="guide_hind_captrue2">若扫码遇到问题\n您还可以试试\n手动输入或蓝牙连接</string>
+    <string name="guide_hind_account">点击可查看当前对应账户详情</string>
+    <string name="guide_hind_account1">查看全部月费套餐\n以及优惠信息</string>
+    <string name="guide_hind_account3">根据您的上月充电情况\n为您推荐套餐，更省心</string>
+
+<!--    <string name="recharge_need_fee_hint">充电结算前，本次预计扣费额度将会暂时冻结，实际扣费以系统结算为准</string>-->
+    <string name="recharge_need_fee_hint">①充电结算时，充电服务费费用将优先消耗服务费抵用金余额\n②实际扣费以系统结算为准</string>
+    <string name="recharge_need_fee_hint1">由于您的手机未联网或信号不佳，确认启动后将由系统自动检测您的可用账户进行充电，充电花费将实时结算。</string>
+    <string name="recharge_need_fee_hint2">充电结算时，实际扣费按照峰谷平时间段价格结算为准。</string>
+    <string name="recharge_need_fee_hint3">实际扣费以系统结算为准</string>
+
+    <string name="charge_starting_hint">充电启动中，请耐心等待··</string>
+
+    <string name="charge_dialog_hint">由于该电桩未联网，直接拔枪会导致订单预设金额延迟结算。因此在拔枪之前需APP重新连接该电桩完成订单结算。</string>
+
+    <string name="text_install">立即安装</string>
+    <string name="text_failed">重新下载</string>
+    <string name="text_upgrade">立即升级</string>
+
+
+    <string name="upgrade_title">为您准备了新版本</string>
+    <string name="upgrade_title2">正在下载更新，请稍后&#8230;</string>
+    <string name="upgrade_title3">下载成功</string>
+    <string name="upgrade_title4">下载失败，请重新尝试</string>
+    <string name="upgrade_title5">新版本安装包已下载完毕</string>
+
+    <string name="feedback_title">提交成功</string>
+    <string name="feedback_message">感谢您的反馈，客服会在2个工作日内跟进处理！</string>
+    <string name="text_sure">好的</string>
+
+    <string name="service_not_online_hind">当前人工客服不在线，您可以通过“我要反馈”来提交您的疑虑</string>
+    <string name="aboutus_service_hind">400人工客服在线时间为7:00至22:00，其他时段可通过联系我们点击“我要反馈”提交相关问题</string>
+    <string name="aboutus_copyright_txt">Copyright © 2010&#8211;2021 EV Power Group Inc</string>
+
+    <string name="search_hint">小区名/大厦名</string>
+    <string name="search_hint1">请输入具体小区/大厦名</string>
+    <string name="ble_search_hint">温馨提示：CID编号指的屏幕上方由8位数字、英文字母组成的电桩编号。例：21000001或2021000X</string>
+
+    <string name="ble_empty_hint"><Data><![CDATA[<font color="#999999"><small><small>未搜索到电桩<br />需要您靠近电桩<br />尝试点击右上角重新扫描搜索附近电桩<small><small></font>]]></Data></string>
+    <string name="text_invoice_not_data"><Data><![CDATA[<font color="#999999"><small><small>暂无可开票信息。<br />如有疑问，请致电依威客服热线：%1$s咨询<small><small></font>]]></Data></string>
+    <string name="monthly_empty_hint"><Data><![CDATA[暂无数据<br /><br /><font color="#999999"><small><small>若您已完成订单支付但未正常显示已购买订单，<br />可能是支付状态延迟，您可以稍后再次查询。<br />如有疑问请致电%1$s<small><small></font>]]></Data></string>
+
+    <string name="monthly_serial_surplus">您当前还可继续享受%d期优惠，解约将无法再次享受套餐优惠</string>
+    <string name="monthly_serial_surplus2">您当前还可继续享受%d期优惠，解约将无法享受套餐优惠</string>
+    <string name="amount_prompt">• 套餐额度：为各档位中套餐的初始额度\n• 续航包额度：本期月费有效期内购买的续航包额度，随本期套餐失效而失效\n• 上月结转额度：本期上一自然月的月费套餐，其中剩余未使用的套餐额度结转至本期使用\n• 赠送额度：随套餐或续航包购买时赠送的额度，有效期随赠送所在期数套餐失效而失效</string>
+
+    <string name="text_day_num">%d天</string>
+    <string name="need_pay_dialog_item_info_text"><Data><![CDATA[<font color="#999999">%1$s</font>%2$s]]></Data></string>
+    <string name="need_pay_dialog_title_text">您有一个订单待支付：</string>
+
+    <string name="text_order_remark">订单备注：\n%s</string>
+
+    <string name="app_protocol_explain_content2">亲爱的用户，感谢您使用E充站！\n我们依据相关法律制定了《E充站用户使用协议》和《隐私政策》，请您在点击同意之前仔细阅读并充分理解相关条款。为便于您理解《隐私政策》，特向您说明如下：\n\n1.为您提供充电相关基本功能，我们会收集、使用必要的信息。\n2.基于您的明示授权，我们可能会调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权。\n3.我们会全力保护您的信息安全。\n4.未经您同意，我们不会从第三方获取、共享或向其提供您的信息。\n5.您可以查询、更正、删除您的个人信息或注销您的账号。</string>
+    <string name="app_protocol_explain_content_tip2">如您同意《E充站用户使用协议》和《隐私政策》，请点击“同意”并开始使用我们的产品和服务！您后续可以在首页点击“个人中心-设置-关于我们”查看使用协议和隐私政策。</string>
+    <string name="app_protocol_explain_title2">E充站隐私政策</string>
+    <string name="app_protocol_explain_content3">亲爱的用户，感谢您使用E充站！\n我们非常重视您的个人信息和隐私保护，为了更好的保障您的个人权利，根据相关政策规定，我们更新了《隐私政策》。为便于您理解《隐私政策》，特向您说明如下：\n\n1.为您提供充电相关基本功能，我们会收集、使用必要的信息。\n2.基于您的明示授权，我们可能会调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权。\n3.我们会全力保护您的信息安全。\n4.未经您同意，我们不会从第三方获取、共享或向其提供您的信息。\n5.您可以查询、更正、删除您的个人信息或注销您的账号。</string>
+    <string name="update_private_time">本次隐私政策更新日期：%1$s</string>
+    <string name="app_protocol_explain_content_tip3">如您同意《隐私政策》，请点击“同意”并开始使用我们的产品和服务！您后续可以在首页点击“个人中心-设置-关于我们”查看使用协议和隐私政策</string>
+    <string name="app_protocol_explain_title3">E充站隐私政策更新提醒</string>
+    <string name="app_protocol_explain_title4">您需要同意使用协议和隐私政策才能使用E充站</string>
+    <string name="app_protocol_explain_content4">若您不同意使用协议和隐私政策，很遗憾我们无法为您提供充电服务。</string>
+    <string name="app_protocol_explain_title5">您需要同意隐私政策才能使用E充站</string>
+    <string name="app_protocol_explain_content5">若您不同意隐私政策，很遗憾我们无法为您提供充电服务。</string>
+    <string name="see_app_protocol_explain">查看协议</string>
+
+
+    <string name="monthly_now_effect_prompt">确认操作后，您的套餐将立即生效，第一期到期时间为%s 。</string>
+    <string name="monthly_phase_surplus_day">当期剩余:%d天</string>
+    <string name="nextTrip_prompt"> 1.下次出行是根据用户预计出行时间和所需补充电量，通过智能化后台对场地所有候选充电车辆进行最优化排序及输出功率平衡的智慧充电方式。\n2.需要用户设置计划出行时间和期望补充的电量，通过智能后台计算并生成订单后有序充电，如当前位置无法匹配场地剩余资源，请根据提示重新设置。</string>
+
+    <string name="nextTrip_maxPower"><Data><![CDATA[该计划时间内，您可设置<font color="#54A3F2">最大充电度数</font>为<font color="#54A3F2">%s</font>度]]></Data></string>
+    <string name="nextTrip_title">下次出行计划</string>
+    <string name="nextTrip_monthly_expired">很抱歉，受当前场地已列队计划影响，无法为您在当期月费套餐过期之前开始启动充电，您可以尝试使用其他支付账户进行充电。</string>
+    <string name="nextTrip_notify_dialog_content">授权消息权限后，您可以第一时间了解到充电情况、优惠活动等通知。</string>
+    <string name="nextTrip_notify_dialog_title">开启消息通知</string>
+
+
+    <string name="permission_camera_content_hind">您未授权相机权限，无法使用扫描电桩CID功能，请在系统设置中设置。</string>
+    <string name="permission_camera_content_hind1">您未授权相机权限，无法使用拍摄功能，请在系统设置中设置。</string>
+    <string name="permission_camera_content_hind2">您未授权相机权限，无法使用扫描行驶证功能，请在系统设置中设置。</string>
+    <string name="open_camera_permission_content_scan_car">扫描行驶证，请您授权相机权限。</string>
+    <string name="open_camera_permission_content_scan_cid">扫描电桩CID，请您授权相机权限。</string>
+    <string name="open_camera_permission_content_up_picture">拍摄照片，请您授权相机权限。</string>
+    <string name="camera_permission">相机权限申请</string>
+    <string name="capture_camera_hind">您未授权相机权限，无法使用扫码充电功能，点击此处授权。</string>
+    <string name="open_camera_permission_title">开启相机权限</string>
+    <string name="open_camera_permission_content_qr">扫码充电将扫描电桩二维码，请您授权相机权限。</string>
+    <string name="go_setting">去设置</string>
+    <string name="allow">允许</string>
+    <string name="no_allow">不允许</string>
+
+    <string name="open_ble_permission_title">开启蓝牙权限</string>
+    <string name="open_ble_permission_content_tip">是否授权“E充站”蓝牙权限，用以发现并连接附近的电桩进行充电。</string>
+    <string name="ble_permission">蓝牙权限申请</string>
+    <string name="refuse_ble_permission_content_tip">您未授权蓝牙权限，无法使用蓝牙连接充电功能，请在系统设置中设置。</string>
+
+    <string name="read_photo_permission_title">读取照片权限</string>
+    <string name="read_photo_permission_content_tip">是否允许“E充站”读取照片权限进行问题反馈。</string>
+    <string name="read_photo_permission">照片权限申请</string>
+    <string name="refuse_photo_permission_content_tip">您未授权照片读取权限，无法选择照片进行问题反馈，请在系统设置中设置。</string>
+
+    <string name="text_certification_car"><Data><![CDATA[您也可以<font color="#54A3F2">手动输入车辆信息</font>]]></Data></string>
+    <string name="score_content">喜欢“E充站”，给我们个好评吧，\n我们会继续努力做到更好!</string>
+
+    <string name="sign_dialog_repair"><Data><![CDATA[补签此日期后，本月累计签到天数变更为<font color="#FF8100">%1$s</font>天]]></Data></string>
+    <string name="sign_dialog_repair_2"><Data><![CDATA[补签此日期后，本月累计签到天数变更为<font color="#FF8100">%1$s</font>天，可获得<font color="#FF8100">%2$s</font>。]]></Data></string>
+    <string name="sign_dialog_repair_success"><Data><![CDATA[本月累计签到天数变为<font color="#FF8100">%1$s</font>天]]></Data></string>
+    <string name="sign_dialog_repair_success_2"><Data><![CDATA[<font color="#FF8100">%1$s</font>]]></Data></string>
+    <string name="sign_dialog_success"><Data><![CDATA[本月累计签到%1$s天<br />再签到%2$s天送<font color="#FF8100">%3$s</font>]]></Data></string>
+    \
+    <string name="sign_dialog_success_2">本月累计签到%1$s天</string>
+
+    <string name="sign_dialog_award">累计签到%1$s天送</string>
+    <string name="map_city_tip">需购买城市服务费卡方可使用充电服务 >></string>
+    <string name="map_point_tip">购买易充点权益卡充电更优惠 >></string>
+
+    <string name="city_card_hint_text">\n您可以通过首页-充值中心购买城市服务费卡。</string>
+    <string name="city_card">"城市服务费卡"</string>
+    <string name="station_type">电站类型</string>
+    <string name="station_type_tip" translatable="false">ChargeNow：是指宝马即时充电的充电站。\n峰谷平充电站：是指分时收费的充电站。</string>
+    <string name="station_select_trip_tip">预约出行时间充电</string>
+    <string name="station_unsupport_ecard">本场站不支持使用易充点权益卡</string>
+    <string name="pile_price_time">当前时段:  %1$s-%2$s</string>
+    <string name="station_activity_time">活动时间:  %1$s-%2$s</string>
+    <string name="station_activity_place">活动范围:  %1$s</string>
+    <string name="city_card_text">城市卡</string>
+    <string name="promo_card_text">权益卡</string>
+    <string name="pre_tare">本次预扣</string>
+    <string name="month_pre_tare_content">本次预扣=设置的充电度数\n如有选择充电抵扣券\n本次预扣=设置的充电度数-充电抵扣券抵扣度数\n如有选择月费充电抵扣券\n本次预扣=设置的充电度数-月费充电抵扣券抵扣度数</string>
+    <string name="personal_pre_tare_content_peak_valley">本次预扣=设置的充电度数*电桩充电单价\n如有选择充电抵扣券\n本次预扣=（设置的充电度数-充电抵扣券抵扣度数）*电桩充电单价\n如有选择充电服务费抵扣券\n本次预扣=（设置的充电度数*电桩电费单价）+[（设置的充电度数*电桩服务费单价）-充电服务费抵扣点数]\n本次预扣=（设置的充电度数*电桩电费单价）+[（设置的充电度数*电桩服务费单价）*充电服务费抵扣比率]\n\n如有选择充电服务费抵扣券（折扣比率）\n需关注优惠券的折扣上限说明（单次充电订单最多抵扣N点）\n峰谷平电桩的本次预扣按照当天时段的最高的价格计算，实际扣费以峰谷平时间段价格结算为准。</string>
+    <string name="personal_pre_tare_content_not_peak_valley">本次预扣=设置的充电度数*电桩充电单价\n如有选择充电抵扣券\n本次预扣=（设置的充电度数-充电抵扣券抵扣度数）*电桩充电单价\n如有选择充电服务费抵扣券\n本次预扣=（设置的充电度数*电桩电费单价）+[（设置的充电度数*电桩服务费单价）-充电服务费抵扣点数]\n本次预扣=（设置的充电度数*电桩电费单价）+[（设置的充电度数*电桩服务费单价）*充电服务费折扣比率]\n\n如有选择充电服务费抵扣券（折扣比率）\n需关注优惠券的折扣上限说明（单次充电订单最多抵扣N点）</string>
+    <string name="recommend_setting_tip_title">个性化推荐内容说明</string>
+    <string name="recommend_setting_tip_content">为向您推荐更便捷、更优质、更个性化的商品或服务，提升您的购物体验和充电体验，我们会基于如下必要信息向您提供商品或服务的个性化推荐：您在访问或使用E充站客服端的用户行为数据，包括商品购买记录、充电记录；设备所在的位置信息。我们会基于以上信息进行综合统计、分析以便了解您的喜好特征，用来向您推荐或展示您可能感兴趣的商品或服务信息。
+            \n如您不喜欢为您推荐的商品或服务等信息，您可以在“个人中心-设置-隐私设置-推荐管理”中点击相应按钮进行关闭，关闭后您在APP内无法看到基于您偏好信息提供的商品推荐和充电站推荐。</string>
+    <string name="price_unit1">点/度</string>
+    <string name="price_unit2">点/度起</string>
+
+    <string name="over_max_invoice_fee_tip">开发票金额超出100000元，请联系人工客服：%1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="not_agree_private">您尚未同意隐私政策，暂无法申请系统相关权限。</string>
+
+    <string name="start_charge">开始充电</string>
+
+    <string name="open_light">打开手电筒</string>
+    <string name="close_light">关闭手电筒</string>
+
+    <string name="close">关闭</string>
+    <string name="charge_time">当前时间: </string>
+
+    <string name="invoice_amount">可开票金额</string>
+</resources>

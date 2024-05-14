@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+
+    <color name="colorPrimary">#2ea4f9</color>
+    <color name="colorPrimaryDark">#2ea4f9</color>
+    <color name="colorAccent">#2ea4f9</color>
+
+    <color name="white">#ffffff</color>
+    <color name="translucent_half">#90000000</color>
+    <color name="translucent_scan">#80000000</color>
+    <color name="translucent">#00000000</color>
+
+
+    <color name="status_color">#ffffff</color>
+    <color name="title_bg_color">#ffffff</color>
+    <color name="title_text_color">#333333</color>
+    <color name="main_bg_color">#F6F7FB</color>
+
+    <color name="divide_line_color">#fff1f1f1</color>
+
+    <color name="body_bg_color">#ffffff</color>
+
+    <color name="main_grey_color">#808080</color>
+    <color name="button_enable_color">#999999</color>
+    <color name="button_not_enable_color">#999999</color>
+
+    <color name="login_edit_unselected">#b9b7ba</color>
+
+    <color name="color_grey3">#333333</color>
+    <color name="color_grey9">#999999</color>
+    <color name="color_greyc">#cccccc</color>
+    <color name="color_greyb">#bbbbbb</color>
+    <color name="color_greyaf">#afafaf</color>
+    <color name="color_grey6">#666666</color>
+    <color name="color_grey7">#d7d7d7</color>
+    <color name="color_grey10">#F5F5F5</color>
+    <color name="color_greybf">#B3C8FF</color>
+    <color name="line_grey_bg">#e7e7e7</color>
+    <!--<color name="line_greyDark_bg">#C4C4D0</color>-->
+    <color name="line_greyDark_bg">#cccccc</color>
+    <color name="color_green">#01C303</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_blue">#2ea4f9</color>
+    <color name="color_blue_light">#1689db</color>
+    <color name="color_blue_bg">#6b94fd</color>
+    <color name="color_yellow">#FF8927</color>
+    <color name="color_yellow2">#FF8638</color>
+    <color name="color_yellow3">#FFE4D9</color>
+
+    <color name="color_price_text">#FF333333</color>
+
+    <!--//遮罩-->
+    <color name="color_guide_bg">#B3000000</color><!--guide遮罩颜色-->
+    <color name="color_red">#f67d92</color>
+    <color name="color_red1">#F64E2A</color>
+
+    <color name="filter_feedback_color">#A4AAB6</color>
+
+    <color name="color_blue_car">#4E89FE</color>
+     <!--    #B7CCF7-->
+    <color name="color_expired">#EEECEC</color>
+    <color name="color_coming_effect">#FAFAFA</color>
+
+    <color name="color_coupon_blue_bg">#4C97F6</color>
+    <color name="color_coupon_yellow_bg">#F57E67</color>
+    <color name="color_actual_pay_value">#ff54a3f2</color>
+
+
+    <color name="color_station_unsupport_promo_card_bg">#C3E1FE</color>
+    <color name="color_station_support_promo_card_bg">#64A6FB</color>
+    <color name="color_station_support_city_card_bg">#7B93FC</color>
+    <color name="color_station_city_card_title_bg">#A4B4FC</color>
+    <color name="color_station_promo_card_title_bg">#99C4FB</color>
+    <color name="color_station_promo_card_recommend_text">#54a3f2</color>
+    <color name="color_station_activity_bg">#F06E76</color>
+    <color name="color_station_activity_title_bg">#F9A5AA</color>
+    <color name="color_station_activity_recommend_bg">#d94d55</color>
+    <color name="hint_bg_orange">#FF8926</color>
+
+    <color name="account_status_effect_FEFEFE">#FEFEFE</color>
+    <color name="account_status_effect_F9F4EA">#F9F4EA</color>
+    <color name="account_status_effect_C0D6F2">#C0D6F2</color>
+    <color name="account_status_effect_AFCEE6">#AFCEE6</color>
+
+    <color name="person_center_right_color">#FF992F</color>
+    <color name="toast_bg">#90000000</color>
+</resources>

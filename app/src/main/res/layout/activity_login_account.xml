@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <import type="android.view.View"/>
+        <import type="com.example.loginkotlin.R"/>
+        <import type="androidx.core.content.ContextCompat" />
+
+        <variable
+            name="loginAccountVo"
+            type="com.example.loginkotlin.viewstate.LoginAccountVo" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/login_bg"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/title_bar"
+            layout="@layout/title_bar_transparent" />
+
+        <ImageView
+            android:id="@+id/loginAccount_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/title_height"
+            android:src="@mipmap/login_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_20"
+            android:layout_marginTop="@dimen/image_small"
+            android:layout_marginEnd="@dimen/margin_20"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_height"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@{loginAccountVo.accountLeftImageRes}"
+                    tools:src="@mipmap/login_phone_unselected"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/margin_14">
+
+                    <EditText
+                        android:id="@+id/loginAccount_num"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:lines="1"
+                        android:maxLength="999"
+                        android:longClickable="false"
+                        android:background="@null"
+                        android:text="@{loginAccountVo.loginAccountStr}"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_15"
+                        android:textColorHint="@color/login_edit_unselected"
+                        android:hint="@string/login_input_account"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@{ContextCompat.getColor(context, loginAccountVo.accountLineColorRes)}"
+                        android:layout_alignParentBottom="true"
+                        tools:background="@color/login_edit_unselected"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/edit_height"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@{loginAccountVo.passwordLeftImageRes}"
+                    tools:src="@mipmap/login_pwd_unselected"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/margin_14">
+
+                    <EditText
+                        android:id="@+id/loginAccount_pwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:lines="1"
+                        android:maxLength="20"
+                        android:inputType="textPassword"
+                        android:longClickable="false"
+                        android:background="@null"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/size_15"
+                        android:textColorHint="@color/login_edit_unselected"
+                        android:hint="@string/login_input_pwd"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@{ContextCompat.getColor(context, loginAccountVo.passwordLineColorRes)}"
+                        android:layout_alignParentBottom="true"
+                        tools:background="@color/login_edit_unselected"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/loginAccount_submit"
+                android:layout_height="@dimen/button_normal_height"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_16"
+                android:layout_marginTop="@dimen/button_margin_top"
+                android:enabled="@{loginAccountVo.loginBtnEnable}"
+                android:background="@{ContextCompat.getDrawable(context, R.drawable.button_main)}"
+                android:text="@string/text_login" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/padding_normal"
+            android:gravity="bottom|center_horizontal">
+
+            <CheckBox
+                android:id="@+id/loginAccount_write_account"
+                style="@style/TextColor_White_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:checked="false"
+                android:drawableLeft="@drawable/checkbox1_bg"
+                android:drawablePadding="5dip"
+                android:text="登录即表示同意" />
+
+            <TextView
+                android:id="@+id/loginAccount_agreement1"
+                style="@style/TextColor_Blue_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_agreement" />
+
+            <TextView
+                style="@style/TextColor_White_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="和" />
+
+            <TextView
+                android:id="@+id/loginAccount_agreement2"
+                style="@style/TextColor_Blue_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_privacy_agreement" />
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>

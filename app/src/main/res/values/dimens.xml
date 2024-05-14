@@ -1,0 +1,85 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="padding_normal">14dp</dimen>
+    <dimen name="drawable_padding_normal">8dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="title_height">50dp</dimen>
+    <dimen name="title_buttom_left_margin">20dp</dimen>
+
+    <dimen name="image_big">100dp</dimen>
+    <dimen name="image_normal">80dp</dimen>
+    <dimen name="image_small">60dp</dimen>
+    <dimen name="image_small_more">30dp</dimen>
+
+    <dimen name="edit_height">56dp</dimen>
+
+    <dimen name="item_height_normal">50dp</dimen>
+    <dimen name="item_height_46">46dp</dimen>
+    <dimen name="item_height_36">36dp</dimen>
+
+    <dimen name="button_small_height">26dp</dimen>
+    <dimen name="button_normal_height">46dp</dimen>
+
+    <dimen name="button_margin_top">25dp</dimen>
+
+    <dimen name="tab_height">40dp</dimen>
+
+    <dimen name="status_height">25dp</dimen>
+
+    <dimen name="item_margin_normal">26dp</dimen>
+
+    <dimen name="red_point_num_size">12dp</dimen>
+    <dimen name="red_point_size">6dp</dimen>
+
+    <dimen name="size_25">25dp</dimen>
+    <dimen name="size_24">24dp</dimen>
+    <dimen name="size_22">22dp</dimen>
+    <dimen name="size_20">20dp</dimen>
+    <dimen name="size_18">18dp</dimen>
+    <dimen name="size_17">17dp</dimen>
+    <dimen name="size_16">16dp</dimen>
+    <dimen name="size_15">15dp</dimen>
+    <dimen name="size_14">14dp</dimen>
+    <dimen name="size_13">13dp</dimen>
+    <dimen name="size_12">12dp</dimen>
+    <dimen name="size_11">11dp</dimen>
+    <dimen name="size_10">10dp</dimen>
+    <dimen name="size_5">5dp</dimen>
+
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_26">26dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="margin_24">24dp</dimen>
+    <dimen name="margin_21">21dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_18">18dp</dimen>
+    <dimen name="margin_17">17dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+
+    <dimen name="main_big_round">100dp</dimen>
+    <dimen name="main_normal_round">80dp</dimen>
+    <dimen name="main_small_round">74dp</dimen>
+    <dimen name="main_bottom_height">54dp</dimen>
+
+    <dimen name="main_card_round">5dp</dimen>
+
+    <dimen name="banner_middle_height">220dip</dimen>
+
+    <dimen name="line_height">0.5dip</dimen>
+    <dimen name="toolbar_behavior_height">160dip</dimen>
+
+    <dimen name="card_corner_radius">6dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+
+    <dimen name="footer_size">11dp</dimen>
+</resources>

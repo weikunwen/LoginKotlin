@@ -1,0 +1,224 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+ext {
+    SUPPORT_LIBRARY_VERSION = '1.0.0'
+    TPNS_VERSION = '1.3.9.0-release'
+    MATERIAL_VERSION = '1.4.0'
+    GILDE_VERSION = '4.13.0'
+
+
+    lifecycle_version = "2.5.1"
+    navigation_version = "2.3.5"
+    coroutines_core_version = '1.6.4'
+    retrofit_version = '2.9.0'
+    okhttp_version = '4.2.1'
+    hilt_version = '2.44.2'
+    androidx_test_version = "1.5.0"
+    ext_junit_version = "1.1.4"
+    espresso_version = "3.5.0"
+    androidx_fragment_version = "1.5.5"
+    truth_version = "1.1.3"
+    robolectric_version = "4.9"
+    androidx_core_version = "1.7.0"
+    androidxCompatVersion = "1.5.1"
+    mockito_version = "4.9.0"
+    camerax_version = "1.2.1"
+
+    release_dependency = [
+//            "androidx.legacy:legacy-support-v4:${SUPPORT_LIBRARY_VERSION}",
+            "androidx.appcompat:appcompat:${androidxCompatVersion}" ,
+            "androidx.cardview:cardview:${SUPPORT_LIBRARY_VERSION}",
+            "androidx.recyclerview:recyclerview:1.2.1",
+            "androidx.annotation:annotation:${SUPPORT_LIBRARY_VERSION}",
+//            "androidx.legacy:legacy-support-core-utils:${SUPPORT_LIBRARY_VERSION}",
+            'androidx.constraintlayout:constraintlayout:2.1.4',
+            "androidx.core:core-ktx:${androidx_core_version}",
+            'com.google.android.material:material:1.5.0',
+
+            'org.greenrobot:eventbus:3.2.0',
+            'com.alibaba:fastjson:1.1.64.android',
+
+            'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.46',
+            'com.meituan.android.walle:library:1.1.7',
+            "com.github.bumptech.glide:glide:$GILDE_VERSION",
+            'com.afollestad.material-dialogs:core:0.9.6.0',
+//            'com.evpower.charger:fastble:1.1.1@aar',
+//            'com.evpower.charger:blecharger:2.1.9@aar',
+            'com.google.android.flexbox:flexbox:3.0.0',
+            'io.github.lucksiege:pictureselector:v3.11.1',
+
+            // rxjava2 : https://github.com/ReactiveX/RxJava/tree/2.x
+            'io.reactivex.rxjava2:rxjava:2.1.10',
+            'io.reactivex.rxjava2:rxandroid:2.0.2',
+
+
+            // retrofit : https://github.com/square/retrofit
+            "com.squareup.retrofit2:retrofit:${retrofit_version}",
+            "com.squareup.retrofit2:converter-gson:${retrofit_version}",
+            "com.squareup.retrofit2:adapter-rxjava2:${retrofit_version}",
+            "com.squareup.retrofit2:converter-scalars:${retrofit_version}",
+            'com.squareup.okhttp3:okhttp:4.9.0',
+            'com.squareup.okhttp3:logging-interceptor:4.9.0',
+
+            // MMKV : https://github.com/Tencent/MMKV
+            'com.tencent:mmkv-static:1.2.10',
+
+            // RxLifecycle: https://github.com/trello/RxLifecycle
+            'com.trello.rxlifecycle2:rxlifecycle:2.2.1',
+            'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1',
+
+            // stetho 网络调试框架: https://github.com/facebook/stetho
+            'com.facebook.stetho:stetho:1.5.0',
+            'com.facebook.stetho:stetho-okhttp3:1.5.0',
+
+            // SmartRefreshLayout 智能刷新: https://github.com/scwang90/SmartRefreshLayout
+            'com.scwang.smartrefresh:SmartRefreshLayout:1.1.3',
+            // Android-PickerView 三级联动选择器: https://github.com/Bigkoo/Android-PickerView
+            'com.contrarywind:Android-PickerView:4.1.9',
+            // Sticky Headers Recyclerview 装饰器: https://github.com/timehop/sticky-headers-recyclerview
+            'com.timehop.stickyheadersrecyclerview:library:0.4.3@aar',
+            // 七牛云图片上传 : https://github.com/qiniu/android-sdk
+            'com.qiniu:qiniu-android-sdk:7.4.6',
+
+
+            // 荣联 SDK: https://github.com/7moor-tech/7moor_visitorIm_sdk
+            'com.github.7moor-tech:7moor_visitorIm_sdk:4.5.0',
+            // 功能面板的框架: https://github.com/DSAppTeam/PanelSwitchHelper/blob/master/README-zh.md
+            'com.effective.android:panelSwitchHelper:1.3.13',
+
+            // MQTT: https://github.com/eclipse/paho.mqtt.android
+            'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0',
+            // mqtt-service 服务端: https://git.evpowergroup.com/ev-android/extra-modules
+//            'com.evpower.extra:mqtt-service:1.0.5@aar',
+
+            //支付宝极简版SDK
+//            files('libs/afservicesdk-1.0.0.220112162010.aar'),
+
+            // Butter Knife: https://github.com/JakeWharton/butterknife
+            'com.jakewharton:butterknife:10.2.3',
+            // 权限框架: https://github.com/googlesamples/easypermissions
+            'pub.devrel:easypermissions:3.0.0',
+            // ViewPager 指示器框架: https://github.com/hackware1993/MagicIndicator
+            'com.github.hackware1993:MagicIndicator:1.7.0',
+            // 轮播图: https://github.com/bingoogolapple/BGABanner-Android
+            'cn.bingoogolapple:bga-banner:2.2.7@aar',
+            // 新手引导: https://github.com/huburt-Hu/NewbieGuide
+            'com.github.huburt-Hu:NewbieGuide:v2.4.4',
+            // 日历: https://github.com/yannecer/NCalendar
+            'com.necer.ncalendar:ncalendar:5.0.2',
+            // 工具库: https://github.com/Blankj/AndroidUtilCode/blob/master/lib/utilcode/README-CN.md
+            'com.blankj:utilcodex:1.31.1',
+            // FlexibleDivider: https://github.com/yqritc/RecyclerView-FlexibleDivider
+            'com.yqritc:recyclerview-flexibledivider:1.4.0',
+            // 屏幕截图: https://github.com/Piasy/RxScreenshotDetector
+            'com.github.piasy:rxscreenshotdetector:1.2.0',
+            // 自定义相机: https://github.com/natario1/CameraView
+            'com.otaliastudios:cameraview:2.7.1',
+            // 屏幕适配: https://github.com/JessYanCoding/AndroidAutoSize
+            'com.github.JessYanCoding:AndroidAutoSize:v1.2.1',
+            // 吐司框架: https://github.com/getActivity/ToastUtils
+            'com.github.getActivity:ToastUtils:10.5',
+            // crash 捕获: https://github.com/iqiyi/xCrash
+            'com.iqiyi.xcrash:xcrash-android-lib:3.0.0',
+            // 异步下载: https://aria.laoyuyu.me/aria_doc/
+            'me.laoyuyu.aria:core:3.8.16',
+            // AspectJX 字节码 hook : https://github.com/wurensen/gradle_plugin_android_aspectjx
+//            'org.aspectj:aspectjrt:1.9.6',
+            // Anr watchdog https://github.com/SalomonBrys/ANR-WatchDog
+            'com.github.anrwatchdog:anrwatchdog:1.4.0',
+            // 京东支付: https://www.jdpay.com/home/product/detail/?id=2
+//            files('libs/jdPaySDK_Android_JDMall_JDJR_2.5.0.aar'),
+            'androidx.work:work-runtime:2.7.1',
+            "com.google.dagger:hilt-android:${hilt_version}",
+            // ViewModel
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version",
+            "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version",
+            // Saved state module for ViewModel
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version",
+
+            'com.jakewharton.timber:timber:5.0.1',
+            'androidx.multidex:multidex:2.0.1',
+            'androidx.activity:activity-ktx:1.5.1',
+            "androidx.fragment:fragment-ktx:$androidx_fragment_version",
+            "androidx.fragment:fragment-testing:$androidx_fragment_version",
+            "androidx.test:core:$androidx_test_version",
+            'androidx.startup:startup-runtime:1.1.1',
+            // Navigation
+            "androidx.navigation:navigation-runtime-ktx:${navigation_version}",
+            "androidx.navigation:navigation-fragment-ktx:${navigation_version}",
+            "androidx.navigation:navigation-ui-ktx:${navigation_version}",
+            //协程
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_core_version",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_core_version",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_core_version",
+
+          // CameraX core library using the camera2 implementation
+            "androidx.camera:camera-core:${camerax_version}",
+             "androidx.camera:camera-camera2:${camerax_version}",
+          // If you want to additionally use the CameraX Lifecycle library
+           "androidx.camera:camera-lifecycle:${camerax_version}",
+         // If you want to additionally use the CameraX View class
+           "androidx.camera:camera-view:${camerax_version}",
+           "com.google.mlkit:barcode-scanning:17.0.0",
+          "com.youzanyun.open.mobile:x5sdk:7.14.0"
+    ]
+
+    test_dependency = [
+            // optional - Test helpers for Lifecycle runtime
+            'junit:junit:4.13.2',
+            "androidx.lifecycle:lifecycle-runtime-testing:$lifecycle_version",
+            "androidx.test:core-ktx:${androidx_test_version}",
+            "androidx.test.ext:junit-ktx:${ext_junit_version}",
+
+            // Optional -- mockito-kotlin
+            //https://github.com/mockito/mockito-kotlin
+            "org.mockito.kotlin:mockito-kotlin:4.1.0",
+
+            // Optional -- Mockito framework
+            "org.mockito:mockito-core:${mockito_version}",
+            "org.mockito:mockito-inline:${mockito_version}",
+            "org.mockito:mockito-android:${mockito_version}",
+
+            "androidx.test:runner:${androidx_test_version}",
+            "androidx.test:rules:${androidx_test_version}",
+            "androidx.arch.core:core-testing:2.1.0",
+            "com.google.dagger:hilt-android-testing:${hilt_version}",
+
+            "org.robolectric:robolectric:$robolectric_version",
+            "androidx.test.espresso:espresso-core:$espresso_version",
+            "com.google.truth:truth:$truth_version",
+
+
+    ]
+
+    android_test_dependency = [
+            "androidx.test:core:${androidx_test_version}",
+            "androidx.test.ext:junit:${ext_junit_version}",
+            "androidx.test:runner:${androidx_test_version}",
+            "androidx.test.espresso:espresso-core:$espresso_version",
+            "androidx.fragment:fragment-testing:$androidx_fragment_version",
+            "com.google.truth:truth:$truth_version",
+            "org.robolectric:annotations:$robolectric_version",
+//             'org.hamcrest:hamcrest-library:1.3'
+
+            "androidx.test.ext:junit-ktx:${ext_junit_version}",
+            "androidx.test:rules:${androidx_test_version}",
+//            // Optional -- UI testing with UI Automator
+//            'androidx.test.uiautomator:uiautomator:2.2.0',
+            "com.google.dagger:hilt-android-testing:${hilt_version}",
+            "org.mockito.kotlin:mockito-kotlin:4.1.0",
+//            "org.mockito:mockito-inline:${mockito_version}",
+            "org.mockito:mockito-core:${mockito_version}",
+            "org.mockito:mockito-android:${mockito_version}",
+            "androidx.arch.core:core-testing:2.1.0",
+    ]
+
+    annotation_dependency = [
+            'com.jakewharton:butterknife-compiler:10.2.3',
+            'me.laoyuyu.aria:compiler:3.8.16',
+            "com.github.bumptech.glide:compiler:$GILDE_VERSION",
+            "com.google.dagger:hilt-compiler:${hilt_version}"
+
+    ]
+}
+

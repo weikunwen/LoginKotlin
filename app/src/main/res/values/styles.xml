@@ -1,0 +1,370 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/title_bg_color</item>
+        <item name="colorPrimaryDark">@color/status_color</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowIsTranslucent">true</item> <!--背景透明防止黑屏-->
+    </style>
+
+    <style name="loading_dialog" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!--    使用DialogActivity必须onCreate添加如下代码-->
+    <!--    //android 8.0 方向问题-->
+    <!--    if (android.os.Build.VERSION.SDK_INT != Build.VERSION_CODES.O) {-->
+    <!--    setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);-->
+    <!--    }-->
+
+    <style name="DialogActivity" parent="@style/Theme.AppCompat.Light.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFrame">@android:color/transparent</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimAmount">0.5</item><!--透明度 0.0f到1.0f之间。1.0完全不透明，0.0f完全透明-->
+        <!-- <item name="android:backgroundDimEnabled">false</item> -->
+    </style>
+
+
+    <style name="TextColor_Grey3_15">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">15.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey3_10">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">10.0dip</item>
+    </style>
+    <style name="TextColor_Grey3_11">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">11.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey3_12">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey3_14">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey3_13">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">13.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey3_16">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey3_18">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">18.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey3_20">
+        <item name="android:textColor">@color/color_grey3</item>
+        <item name="android:textSize">20.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey6_14">
+        <item name="android:textColor">@color/color_grey6</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey6_15">
+        <item name="android:textColor">@color/color_grey6</item>
+        <item name="android:textSize">15.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey6_13">
+        <item name="android:textColor">@color/color_grey6</item>
+        <item name="android:textSize">13.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey6_16">
+        <item name="android:textColor">@color/color_grey6</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey6_18">
+        <item name="android:textColor">@color/color_grey6</item>
+        <item name="android:textSize">18.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey6_12">
+        <item name="android:textColor">@color/color_grey6</item>
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey6_10">
+        <item name="android:textColor">@color/color_grey6</item>
+        <item name="android:textSize">10.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey6_8">
+        <item name="android:textColor">@color/color_grey6</item>
+        <item name="android:textSize">8.0dip</item>
+    </style>
+
+    <style name="TextColor_White_15">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_White_14">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_White_13">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">13.0dip</item>
+    </style>
+
+    <style name="TextColor_White_12">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextColor_White_11">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">11.0dip</item>
+    </style>
+
+    <style name="TextColor_White_10">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">10.0dip</item>
+    </style>
+
+    <style name="TextColor_White_8">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">8.0dip</item>
+    </style>
+
+    <style name="TextColor_White_16">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+
+    <style name="TextColor_White_18">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">18.0dip</item>
+    </style>
+
+    <style name="TextColor_White_20">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20.0dip</item>
+    </style>
+
+    <style name="TextColor_White_22">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">22.0dip</item>
+    </style>
+
+
+    <style name="TextColor_Grey9_16">
+        <item name="android:textColor">@color/color_grey9</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey9_15">
+        <item name="android:textColor">@color/color_grey9</item>
+        <item name="android:textSize">15.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey9_14">
+        <item name="android:textColor">@color/color_grey9</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey9_13">
+        <item name="android:textColor">@color/color_grey9</item>
+        <item name="android:textSize">13.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey9_11">
+        <item name="android:textColor">@color/color_grey9</item>
+        <item name="android:textSize">11.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey9_12">
+        <item name="android:textColor">@color/color_grey9</item>
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextColor_Grey9_10">
+        <item name="android:textColor">@color/color_grey9</item>
+        <item name="android:textSize">10.0dip</item>
+    </style>
+
+    <style name="TextColor_GreyC_12">
+        <item name="android:textColor">@color/color_greyc</item>
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextColor_GreyC_10">
+        <item name="android:textColor">@color/color_greyc</item>
+        <item name="android:textSize">10.0dip</item>
+    </style>
+
+    <style name="TextColor_TitleColor_16">
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+
+    <style name="TextColor_TitleColor_14">
+        <item name="android:textColor">@color/title_text_color</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_Blue_12">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextColor_Blue_11">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">11.0dip</item>
+    </style>
+
+    <style name="TextColor_Blue_10">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">10.0dip</item>
+    </style>
+
+    <style name="TextColor_Blue_13">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">13.0dip</item>
+    </style>
+
+    <style name="TextColor_Blue_14">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_Blue_15">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">15.0dip</item>
+    </style>
+
+    <style name="TextColor_Blue_16">
+        <item name="android:textColor">@color/color_blue</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+
+    <style name="TextColor_Yellow_12">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextColor_Yellow_10">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">10.0dip</item>
+    </style>
+
+    <style name="TextColor_Yellow_13">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">13.0dip</item>
+    </style>
+
+    <style name="TextColor_Yellow_14">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_Yellow_16">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+
+    <style name="TextColor_Yellow_18">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">18.0dip</item>
+    </style>
+
+    <style name="TextColor_Yellow_20">
+        <item name="android:textColor">@color/color_yellow</item>
+        <item name="android:textSize">20.0dip</item>
+    </style>
+
+    <style name="TextColor_Black_12">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">12.0dip</item>
+    </style>
+
+    <style name="TextColor_Black_14">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">14.0dip</item>
+    </style>
+
+    <style name="TextColor_Black_16">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">16.0dip</item>
+    </style>
+
+    <style name="TextColor_Black_22">
+        <item name="android:textColor">@color/color_black</item>
+        <item name="android:textSize">22.0dip</item>
+    </style>
+
+    <style name="LineH_Fill_Width0_5_Grey_ForView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:background">@color/line_grey_bg</item>
+    </style>
+
+    <style name="LineH_Fill_Width0_5_GreyDark_ForView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:background">@color/line_greyDark_bg</item>
+    </style>
+
+    <style name="LineH_Fill_Width0_5_Grey_ForImageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:background">@color/color_white</item>
+        <item name="android:src">@color/line_grey_bg</item>
+    </style>
+
+    <style name="LineV_Fill_Width0_5_Grey_ForView">
+        <item name="android:layout_width">0.5dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/line_grey_bg</item>
+    </style>
+
+    <style name="LineH_Fill_Width_1_Main_BG_ForView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@color/main_bg_color</item>
+    </style>
+
+    <style name="promo_card_recommend_10">
+        <item name="android:textColor">@color/color_station_promo_card_recommend_text</item>
+        <item name="android:textSize">10.0dip</item>
+    </style>
+
+    <style name="promo_card_recommend_13">
+        <item name="android:textColor">@color/color_station_promo_card_recommend_text</item>
+        <item name="android:textSize">13.0dip</item>
+    </style>
+</resources>

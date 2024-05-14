@@ -1,0 +1,121 @@
+plugins {
+    alias(libs.plugins.androidApplication)
+    alias(libs.plugins.jetbrainsKotlinAndroid)
+}
+
+apply from: 'dependency.gradle'
+
+// 定义 Code 使用年月日
+static def _getVersionCode() {
+    return new Date().format("yyMMddHH", TimeZone.getDefault()) as int
+}
+
+// 定义时间
+static def _releaseTime() {
+    return new Date().format("MMddHHmm", TimeZone.getDefault())
+}
+
+android {
+    namespace 'com.example.loginkotlin'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.loginkotlin"
+        minSdk 24
+        targetSdk 34
+        versionCode _getVersionCode()
+        versionName "1.0"
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    testBuildType "dev"
+
+    buildTypes {
+
+        // 开发环境相关配置 BaseEnvironment.class
+        debug {
+            debuggable true
+            versionNameSuffix "_${_releaseTime()}-debug"
+            // Zipalign 优化
+            zipAlignEnabled false
+
+            buildConfigField "String", "host", "\"https://app-api-dev.e-chong.com\""
+            buildConfigField "String", "webHost", "\"https://h5-dev.e-chong.com\""
+            buildConfigField "String", "tcpHost", "\"183.232.157.134:1883\""
+            buildConfigField "String", "imAppId", "\"eee61250-8c80-11eb-bebb-4989b3143369\""
+        }
+
+        // 测试环境
+        dev.initWith(debug)
+        dev {
+            versionNameSuffix "_${_releaseTime()}-dev"
+            buildConfigField "String", "host", "\"https://app-api-test2.e-chong.com\""
+            buildConfigField "String", "webHost", "\"https://h5-test.e-chong.com\""
+        }
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        def buildType = variant.buildType.name
+        def createTime = new Date().format("HHmm", TimeZone.getTimeZone("GMT+08:00"))
+        variant.outputs.each {
+            // it.outputFileName = "eCharge-${defaultConfig.versionName}-${defaultConfig.versionCode}-${createTime}-${buildType}.apk"
+            it.outputFileName = "eCharge-${defaultConfig.versionName}-${defaultConfig.versionCode}-${createTime}-${buildType}.apk"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    viewBinding {
+        enabled = true
+    }
+
+    android{
+        buildFeatures.buildConfig = true
+    }
+}
+
+dependencies {
+
+    //    implementation 'androidx.core:core-ktx:+'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.camera:camera-view:1.1.0-beta02'
+
+//    testImplementation 'junit:junit:4.12'
+
+//    implementation 'androidx.core:core-ktx:+'
+    println "------------------->release_dependency:"
+    dependencyPro(dependencies, "implementation", release_dependency)
+    println "------------------->test_dependency:"
+    dependencyPro(dependencies, "testImplementation", test_dependency)
+    println "------------------->androidTestImplementation:"
+    dependencyPro(dependencies, "androidTestImplementation", android_test_dependency)
+}
+
+static def dependencyPro(handler, funString = "", dependlist = []) {
+    dependlist.sort().each {
+        println "${it}"
+        handler.add(funString, it)
+    }
+}
