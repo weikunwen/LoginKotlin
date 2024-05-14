@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">E充站</string>
+    <string name="app_name">MVI</string>
     <string name="text_default_placeholder">--</string>
     <string name="text_default_loading">加载中&#8230;</string>
 
@@ -141,12 +141,12 @@
     <string name="login_input_account">请输入账号</string>
     <string name="login_input_pwd">请输入密码</string>
     <string name="login_forget_pwd"><u>忘记密码?</u></string>
-    <string name="login_agreement">《E充站用户使用协议》</string>
+    <string name="login_agreement">《MVI用户使用协议》</string>
     <string name="login_privacy_agreement">《隐私政策》</string>
 
     <string name="login_reg_input_phone">请输入您的手机号码</string>
     <string name="login_reg_input_verify_code">请输入收到的验证码</string>
-    <string name="login_reg_call_service"><Data><![CDATA[如有任何疑问可联系E充站客服<font color="#2ea4f9">%1$s</font>]]></Data></string>
+    <string name="login_reg_call_service"><Data><![CDATA[如有任何疑问可联系MVI客服<font color="#2ea4f9">%1$s</font>]]></Data></string>
 
     <string name="login_find_not_verify_code">收不到验证码?试试<Data><![CDATA[<font color="#2ea4f9">语音验证码</font>]]></Data></string>
     <string name="login_find_input_phone">请输入绑定的手机号码</string>
@@ -230,7 +230,7 @@
     <string name="text_cache">清理缓存</string>
     <string name="text_share">APP分享</string>
     <string name="text_notice">消息提醒设置</string>
-    <string name="text_share_hind">把E充站分享给好友，一起体验充电的便捷</string>
+    <string name="text_share_hind">把MVI分享给好友，一起体验充电的便捷</string>
     <string name="text_share_parameter_error">分享参数异常,请联系客服</string>
     <string name="text_logout">退出登录</string>
     <string name="text_enterprise">企业认证</string>
@@ -442,16 +442,16 @@
 
     <string name="text_order_remark">订单备注：\n%s</string>
 
-    <string name="app_protocol_explain_content2">亲爱的用户，感谢您使用E充站！\n我们依据相关法律制定了《E充站用户使用协议》和《隐私政策》，请您在点击同意之前仔细阅读并充分理解相关条款。为便于您理解《隐私政策》，特向您说明如下：\n\n1.为您提供充电相关基本功能，我们会收集、使用必要的信息。\n2.基于您的明示授权，我们可能会调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权。\n3.我们会全力保护您的信息安全。\n4.未经您同意，我们不会从第三方获取、共享或向其提供您的信息。\n5.您可以查询、更正、删除您的个人信息或注销您的账号。</string>
-    <string name="app_protocol_explain_content_tip2">如您同意《E充站用户使用协议》和《隐私政策》，请点击“同意”并开始使用我们的产品和服务！您后续可以在首页点击“个人中心-设置-关于我们”查看使用协议和隐私政策。</string>
-    <string name="app_protocol_explain_title2">E充站隐私政策</string>
-    <string name="app_protocol_explain_content3">亲爱的用户，感谢您使用E充站！\n我们非常重视您的个人信息和隐私保护，为了更好的保障您的个人权利，根据相关政策规定，我们更新了《隐私政策》。为便于您理解《隐私政策》，特向您说明如下：\n\n1.为您提供充电相关基本功能，我们会收集、使用必要的信息。\n2.基于您的明示授权，我们可能会调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权。\n3.我们会全力保护您的信息安全。\n4.未经您同意，我们不会从第三方获取、共享或向其提供您的信息。\n5.您可以查询、更正、删除您的个人信息或注销您的账号。</string>
+    <string name="app_protocol_explain_content2">亲爱的用户，感谢您使用MVI！\n我们依据相关法律制定了《MVI用户使用协议》和《隐私政策》，请您在点击同意之前仔细阅读并充分理解相关条款。为便于您理解《隐私政策》，特向您说明如下：\n\n1.为您提供充电相关基本功能，我们会收集、使用必要的信息。\n2.基于您的明示授权，我们可能会调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权。\n3.我们会全力保护您的信息安全。\n4.未经您同意，我们不会从第三方获取、共享或向其提供您的信息。\n5.您可以查询、更正、删除您的个人信息或注销您的账号。</string>
+    <string name="app_protocol_explain_content_tip2">如您同意《MVI用户使用协议》和《隐私政策》，请点击“同意”并开始使用我们的产品和服务！您后续可以在首页点击“个人中心-设置-关于我们”查看使用协议和隐私政策。</string>
+    <string name="app_protocol_explain_title2">MVI隐私政策</string>
+    <string name="app_protocol_explain_content3">亲爱的用户，感谢您使用MVI！\n我们非常重视您的个人信息和隐私保护，为了更好的保障您的个人权利，根据相关政策规定，我们更新了《隐私政策》。为便于您理解《隐私政策》，特向您说明如下：\n\n1.为您提供充电相关基本功能，我们会收集、使用必要的信息。\n2.基于您的明示授权，我们可能会调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权。\n3.我们会全力保护您的信息安全。\n4.未经您同意，我们不会从第三方获取、共享或向其提供您的信息。\n5.您可以查询、更正、删除您的个人信息或注销您的账号。</string>
     <string name="update_private_time">本次隐私政策更新日期：%1$s</string>
     <string name="app_protocol_explain_content_tip3">如您同意《隐私政策》，请点击“同意”并开始使用我们的产品和服务！您后续可以在首页点击“个人中心-设置-关于我们”查看使用协议和隐私政策</string>
-    <string name="app_protocol_explain_title3">E充站隐私政策更新提醒</string>
-    <string name="app_protocol_explain_title4">您需要同意使用协议和隐私政策才能使用E充站</string>
+    <string name="app_protocol_explain_title3">MVI隐私政策更新提醒</string>
+    <string name="app_protocol_explain_title4">您需要同意使用协议和隐私政策才能使用MVI</string>
     <string name="app_protocol_explain_content4">若您不同意使用协议和隐私政策，很遗憾我们无法为您提供充电服务。</string>
-    <string name="app_protocol_explain_title5">您需要同意隐私政策才能使用E充站</string>
+    <string name="app_protocol_explain_title5">您需要同意隐私政策才能使用MVI</string>
     <string name="app_protocol_explain_content5">若您不同意隐私政策，很遗憾我们无法为您提供充电服务。</string>
     <string name="see_app_protocol_explain">查看协议</string>
 
@@ -482,17 +482,17 @@
     <string name="no_allow">不允许</string>
 
     <string name="open_ble_permission_title">开启蓝牙权限</string>
-    <string name="open_ble_permission_content_tip">是否授权“E充站”蓝牙权限，用以发现并连接附近的电桩进行充电。</string>
+    <string name="open_ble_permission_content_tip">是否授权“MVI”蓝牙权限，用以发现并连接附近的电桩进行充电。</string>
     <string name="ble_permission">蓝牙权限申请</string>
     <string name="refuse_ble_permission_content_tip">您未授权蓝牙权限，无法使用蓝牙连接充电功能，请在系统设置中设置。</string>
 
     <string name="read_photo_permission_title">读取照片权限</string>
-    <string name="read_photo_permission_content_tip">是否允许“E充站”读取照片权限进行问题反馈。</string>
+    <string name="read_photo_permission_content_tip">是否允许“MVI”读取照片权限进行问题反馈。</string>
     <string name="read_photo_permission">照片权限申请</string>
     <string name="refuse_photo_permission_content_tip">您未授权照片读取权限，无法选择照片进行问题反馈，请在系统设置中设置。</string>
 
     <string name="text_certification_car"><Data><![CDATA[您也可以<font color="#54A3F2">手动输入车辆信息</font>]]></Data></string>
-    <string name="score_content">喜欢“E充站”，给我们个好评吧，\n我们会继续努力做到更好!</string>
+    <string name="score_content">喜欢“MVI”，给我们个好评吧，\n我们会继续努力做到更好!</string>
 
     <string name="sign_dialog_repair"><Data><![CDATA[补签此日期后，本月累计签到天数变更为<font color="#FF8100">%1$s</font>天]]></Data></string>
     <string name="sign_dialog_repair_2"><Data><![CDATA[补签此日期后，本月累计签到天数变更为<font color="#FF8100">%1$s</font>天，可获得<font color="#FF8100">%2$s</font>。]]></Data></string>
@@ -522,7 +522,7 @@
     <string name="personal_pre_tare_content_peak_valley">本次预扣=设置的充电度数*电桩充电单价\n如有选择充电抵扣券\n本次预扣=（设置的充电度数-充电抵扣券抵扣度数）*电桩充电单价\n如有选择充电服务费抵扣券\n本次预扣=（设置的充电度数*电桩电费单价）+[（设置的充电度数*电桩服务费单价）-充电服务费抵扣点数]\n本次预扣=（设置的充电度数*电桩电费单价）+[（设置的充电度数*电桩服务费单价）*充电服务费抵扣比率]\n\n如有选择充电服务费抵扣券（折扣比率）\n需关注优惠券的折扣上限说明（单次充电订单最多抵扣N点）\n峰谷平电桩的本次预扣按照当天时段的最高的价格计算，实际扣费以峰谷平时间段价格结算为准。</string>
     <string name="personal_pre_tare_content_not_peak_valley">本次预扣=设置的充电度数*电桩充电单价\n如有选择充电抵扣券\n本次预扣=（设置的充电度数-充电抵扣券抵扣度数）*电桩充电单价\n如有选择充电服务费抵扣券\n本次预扣=（设置的充电度数*电桩电费单价）+[（设置的充电度数*电桩服务费单价）-充电服务费抵扣点数]\n本次预扣=（设置的充电度数*电桩电费单价）+[（设置的充电度数*电桩服务费单价）*充电服务费折扣比率]\n\n如有选择充电服务费抵扣券（折扣比率）\n需关注优惠券的折扣上限说明（单次充电订单最多抵扣N点）</string>
     <string name="recommend_setting_tip_title">个性化推荐内容说明</string>
-    <string name="recommend_setting_tip_content">为向您推荐更便捷、更优质、更个性化的商品或服务，提升您的购物体验和充电体验，我们会基于如下必要信息向您提供商品或服务的个性化推荐：您在访问或使用E充站客服端的用户行为数据，包括商品购买记录、充电记录；设备所在的位置信息。我们会基于以上信息进行综合统计、分析以便了解您的喜好特征，用来向您推荐或展示您可能感兴趣的商品或服务信息。
+    <string name="recommend_setting_tip_content">为向您推荐更便捷、更优质、更个性化的商品或服务，提升您的购物体验和充电体验，我们会基于如下必要信息向您提供商品或服务的个性化推荐：您在访问或使用MVI客服端的用户行为数据，包括商品购买记录、充电记录；设备所在的位置信息。我们会基于以上信息进行综合统计、分析以便了解您的喜好特征，用来向您推荐或展示您可能感兴趣的商品或服务信息。
             \n如您不喜欢为您推荐的商品或服务等信息，您可以在“个人中心-设置-隐私设置-推荐管理”中点击相应按钮进行关闭，关闭后您在APP内无法看到基于您偏好信息提供的商品推荐和充电站推荐。</string>
     <string name="price_unit1">点/度</string>
     <string name="price_unit2">点/度起</string>
