@@ -41,8 +41,6 @@ class LoginPhoneActivity : AppCompatActivity(), CountDownHelper.ICountDownCallBa
 
     private lateinit var launchFindPwd: ActivityResultLauncher<Intent>
 
-    private var mainHandler: Handler? = null
-
     private var cancelAuthDialog: Dialog? = null
 
     private var isDestroyed = false
@@ -53,9 +51,7 @@ class LoginPhoneActivity : AppCompatActivity(), CountDownHelper.ICountDownCallBa
         super.onCreate(savedInstanceState)
         mBinding = ActivityLoginPhoneBinding.inflate(layoutInflater)
         setContentView(mBinding.root)
-        loginPhoneVM = ViewModelProvider(this,
-            LoginPhoneVM.Companion.ViewModelFactory(LoginPhoneState.InitialState)
-        )[LoginPhoneVM::class.java]
+        loginPhoneVM = ViewModelProvider(this, LoginPhoneVM.Companion.ViewModelFactory(LoginPhoneState.InitialState))[LoginPhoneVM::class.java]
 
         StatusBarNewUtil.setTransparentForImageView(this)
         registerUIStateCallback()
@@ -74,17 +70,14 @@ class LoginPhoneActivity : AppCompatActivity(), CountDownHelper.ICountDownCallBa
         }
 
         launchFindPwd = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
-            mainHandler = Handler(Looper.getMainLooper())
-            mainHandler!!.postDelayed({
-                val isCountDowning = CountDownHelper.getInstance().checkGlobalCountDowning(this@LoginPhoneActivity)
-                if (isCountDowning) {
-                    setVerifyCodeBtnEnabled(false)
-                    setVerifyCodeText("")
-                } else {
-                    setVerifyCodeBtnEnabled(true)
-                    setVerifyCodeText(getString(R.string.text_verifyCode))
-                }
-            }, 500)   //延迟防止FindPasswordActivity在onDestroy中调用FindPwdPresenter的removeGlobalCountDownCallBack操作，导致倒计时无法回调。
+            val isCountDowning = CountDownHelper.getInstance().checkGlobalCountDowning(this@LoginPhoneActivity)
+            if (isCountDowning) {
+                setVerifyCodeBtnEnabled(false)
+                setVerifyCodeText("")
+            } else {
+                setVerifyCodeBtnEnabled(true)
+                setVerifyCodeText(getString(R.string.text_verifyCode))
+            }
         }
     }
 
@@ -290,7 +283,6 @@ class LoginPhoneActivity : AppCompatActivity(), CountDownHelper.ICountDownCallBa
     override fun onDestroy() {
         super.onDestroy()
         isDestroyed = true
-        mainHandler?.removeCallbacksAndMessages(null)
         CountDownHelper.getInstance().removeGlobalCountDownCallBack()
         KeyBoardUtils.getInstance().hideSoftInput(this)
         KeyBoardUtils.getInstance().fixSoftInputLeaks(this)

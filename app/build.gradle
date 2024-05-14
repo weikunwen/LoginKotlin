@@ -41,18 +41,18 @@ android {
             // Zipalign 优化
             zipAlignEnabled false
 
-            buildConfigField "String", "host", "\"https://app-api-dev.e-chong.com\""
-            buildConfigField "String", "webHost", "\"https://h5-dev.e-chong.com\""
-            buildConfigField "String", "tcpHost", "\"183.232.157.134:1883\""
-            buildConfigField "String", "imAppId", "\"eee61250-8c80-11eb-bebb-4989b3143369\""
+            buildConfigField "String", "host", "\"https://app-api-dev.chong.com\""
+            buildConfigField "String", "webHost", "\"https://h5-dev.chong.com\""
+            buildConfigField "String", "tcpHost", "\"183.232.157.134:18\""
+            buildConfigField "String", "imAppId", "\"eee61250-8c80-11eb-bebb-4989b31433\""
         }
 
         // 测试环境
         dev.initWith(debug)
         dev {
             versionNameSuffix "_${_releaseTime()}-dev"
-            buildConfigField "String", "host", "\"https://app-api-test2.e-chong.com\""
-            buildConfigField "String", "webHost", "\"https://h5-test.e-chong.com\""
+            buildConfigField "String", "host", "\"https://app-api-test2.chong.com\""
+            buildConfigField "String", "webHost", "\"https://h5-test.chong.com\""
         }
 
         release {
